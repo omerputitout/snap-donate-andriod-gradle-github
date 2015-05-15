@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_selected="true" android:color="@android:color/white"/>
+    <item android:state_focused="true" android:color="@android:color/white"/>
+    <item android:state_pressed="true" android:color="@android:color/white"/>
+    <item android:color="@color/pink"></item>
+
+</selector><!-- From: file:/E:/Android%20Studio%20Workspace/snap-donate-andriod-github/snapDonate/src/main/res/color/search_list_textview_selector.xml -->

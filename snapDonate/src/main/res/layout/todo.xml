@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    android:weightSum="77.1" >
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3.7" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="70.7"
+        android:orientation="horizontal" >
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4.4" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="90.9"
+            android:orientation="vertical"
+            android:weightSum="70.7" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="5.2"
+                android:orientation="horizontal"
+                android:weightSum="90.9" >
+
+                <TextView
+                    android:id="@+id/todoTextView"
+                    style="@style/_48px"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="21.4"
+                    android:background="@android:color/white"
+                    android:gravity="center"
+                    android:text="@string/to_do"
+                    android:textColor="@color/tab_selected" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.8" />
+
+                <TextView
+                    android:id="@+id/historyTextView"
+                    style="@style/_48px"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="24.6"
+                    android:background="#f5f5f5"
+                    android:gravity="center"
+                    android:text="@string/history"
+                    android:textColor="@color/tab_normal" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/progressBarLinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="65.5"
+                android:background="@android:color/white"
+                android:contentDescription="main content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:weightSum="65.5" >
+
+                <ProgressBar
+                    style="@android:style/Widget.ProgressBar.Small"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+                </ProgressBar>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="65.5"
+                android:background="@android:color/white"
+                android:contentDescription="main content"
+                android:orientation="vertical"
+                android:weightSum="65.5" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="15.8"
+                    android:orientation="horizontal" >
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4.5" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="86.4"
+                        android:orientation="vertical"
+                        android:weightSum="15.8" >
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="3.2" />
+
+                        <TextView
+                            android:id="@+id/shortDescriptionTextView"
+                            style="@style/_48px"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="12.6"
+                            android:gravity="left"
+                            android:textColor="@color/tab_selected" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.1"
+                    android:background="@drawable/gridview_bg" />
+
+                <ListView
+                    android:id="@+id/todoListView"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="49.6"
+                    android:cacheColorHint="@android:color/transparent"
+                    android:divider="@drawable/seperater"
+                    android:dividerHeight="1dp"
+                    android:overScrollMode="never"
+                    android:scrollbars="none" >
+                </ListView>
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4.6" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2.7" />
+
+</LinearLayout>

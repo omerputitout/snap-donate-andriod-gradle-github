@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="SampleAppsTheme" parent="@android:style/Theme.Light">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="_32px">
+        <item name="android:textSize">21.33px</item>
+    </style>
+    
+    
+        <style name="_60px">
+        <item name="android:textSize">40px</item>
+    </style>
+    
+         <style name="_48px">
+        <item name="android:textSize">32px</item>
+    </style>
+    
+        
+           <style name="_52px">
+        <item name="android:textSize">34.67px</item>
+    </style>
+    
+                      <style name="_100px">
+        <item name="android:textSize">66.67px</item>
+    </style>
+    
+                       <style name="_80px">
+        <item name="android:textSize">53.33px</item>
+    </style>
+           
+                      
+                       <style name="_140px">
+        <item name="android:textSize">93.33px</item>
+    </style>
+    
+                         <style name="_36px">
+        <item name="android:textSize">21.33px</item>
+    </style>
+
+</resources>

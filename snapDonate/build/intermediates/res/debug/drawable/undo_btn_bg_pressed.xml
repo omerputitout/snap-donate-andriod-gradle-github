@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+	<solid android:color="@color/btn_pressed"/>
+	<corners android:radius="3dp"/>
+</shape><!-- From: file:/E:/Android%20Studio%20Workspace/snap-donate-andriod-github/swipeToDismissUndoListmaster/src/main/res/drawable/undo_btn_bg_pressed.xml --><!-- From: file:/E:/Android%20Studio%20Workspace/snap-donate-andriod-github/snapDonate/build/intermediates/exploded-aar/snap-donate-andriod-github/swipeToDismissUndoListmaster/unspecified/res/drawable/undo_btn_bg_pressed.xml -->

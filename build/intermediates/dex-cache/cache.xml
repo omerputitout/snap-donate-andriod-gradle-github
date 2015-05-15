@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="E:\Android Studio Workspace\snap-donate-andriod-github\snapDonate\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\7.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e5b9f5b0aa8dee788beb63d23832cb29ce771343">
+        <dex dex="E:\Android Studio Workspace\snap-donate-andriod-github\snapDonate\build\intermediates\pre-dexed\debug\classes-c0cfa6e1846971a8b88046fecc138e0b61485613.jar" />
+    </item>
+    <item
+        jar="E:\Android Studio Workspace\snap-donate-andriod-github\snapDonate\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\7.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e35fae1b377c23aa5fd2d309a190c2d0f73d54ec">
+        <dex dex="E:\Android Studio Workspace\snap-donate-andriod-github\snapDonate\build\intermediates\pre-dexed\debug\classes-189060c1767bbd2909356c46e7fe54ba5c1dd5a1.jar" />
+    </item>
+    <item
+        jar="E:\Android Studio Workspace\snap-donate-andriod-github\snapDonate\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="fe3e0c6de7cceed888b277487238b6af9a1cc299">
+        <dex dex="E:\Android Studio Workspace\snap-donate-andriod-github\snapDonate\build\intermediates\pre-dexed\debug\classes-0d787caf5de586978839564588d5e389ecae757d.jar" />
+    </item>
+    <item
+        jar="E:\Android Studio Workspace\snap-donate-andriod-github\snapDonate\build\intermediates\exploded-aar\snap-donate-andriod-github\swipeToDismissUndoListmaster\unspecified\jars\libs\nineoldandroids-2.4.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a43cf9e271b5bc564e880a0a4be63ab9c69c97f8">
+        <dex dex="E:\Android Studio Workspace\snap-donate-andriod-github\snapDonate\build\intermediates\pre-dexed\debug\nineoldandroids-2.4.0-8119c6f1daaa3ef39c2b506c78e0df6c935f4124.jar" />
+    </item>
+    <item
+        jar="E:\Android Studio Workspace\snap-donate-andriod-github\snapDonate\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f2f7ec211ce4d244ee97a57523eeb4526dc3cf8a">
+        <dex dex="E:\Android Studio Workspace\snap-donate-andriod-github\snapDonate\build\intermediates\pre-dexed\debug\classes-1502e7ca286f05fb32c6c669a4ed5c630df4423d.jar" />
+    </item>
+    <item
+        jar="E:\Android Studio Workspace\snap-donate-andriod-github\snapDonate\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\7.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b48d5c51a9a9e329005106b4667f54948de4d4d8">
+        <dex dex="E:\Android Studio Workspace\snap-donate-andriod-github\snapDonate\build\intermediates\pre-dexed\debug\classes-b7908e9895d1e31d48f49bcb21b9f6c35eb12a84.jar" />
+    </item>
+    <item
+        jar="E:\Android Studio Workspace\snap-donate-andriod-github\snapDonate\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\7.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6046e5cdaf799120b7c56a5a061d80e8854c4d34">
+        <dex dex="E:\Android Studio Workspace\snap-donate-andriod-github\snapDonate\build\intermediates\pre-dexed\debug\classes-f9bf5209df04263dbc14636075a51afcde302b31.jar" />
+    </item>
+    <item
+        jar="E:\Android Studio Workspace\snap-donate-andriod-github\snapDonate\build\intermediates\exploded-aar\snap-donate-andriod-github\swipeToDismissUndoListmaster\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0b37a79af93616b94ae8e7030b690622d9f8eb90">
+        <dex dex="E:\Android Studio Workspace\snap-donate-andriod-github\snapDonate\build\intermediates\pre-dexed\debug\classes-6431ba7143f749515775ec53e922ba7155436277.jar" />
+    </item>
+    <item
+        jar="E:\Android Studio Workspace\snap-donate-andriod-github\snapDonate\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\7.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0180d031a7b54dabb93b4af3869468b55dc938bd">
+        <dex dex="E:\Android Studio Workspace\snap-donate-andriod-github\snapDonate\build\intermediates\pre-dexed\debug\classes-aa08553133bb56417d00ab497688681e3d2adfd5.jar" />
+    </item>
+    <item
+        jar="E:\Android Studio Workspace\snap-donate-andriod-github\snapDonate\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\7.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="5ea948d825957be6c4358c48422bee60eef2d487">
+        <dex dex="E:\Android Studio Workspace\snap-donate-andriod-github\snapDonate\build\intermediates\pre-dexed\debug\classes-23d8188163781e7f3f2a4d398cb50796797397ff.jar" />
+    </item>
+    <item
+        jar="E:\Android Studio Workspace\snap-donate-andriod-github\snapDonate\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b2c07cdb814fe988ad05f7b4d767a841514a5991">
+        <dex dex="E:\Android Studio Workspace\snap-donate-andriod-github\snapDonate\build\intermediates\pre-dexed\debug\classes-fcf48694e83301de9aeb78c9b9260a5e259c1f94.jar" />
+    </item>
+    <item
+        jar="E:\Android Studio Workspace\snap-donate-andriod-github\snapDonate\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\7.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="bb36004beb02b69562cbec9aa7d6a3cf16bf5d1b">
+        <dex dex="E:\Android Studio Workspace\snap-donate-andriod-github\snapDonate\build\intermediates\pre-dexed\debug\classes-eb6e9ce377ba943927b636996c5a5141b88e255b.jar" />
+    </item>
+    <item
+        jar="E:\Android Studio Workspace\snap-donate-andriod-github\snapDonate\libs\twitter4j-core-3.0.5.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="5999e1915b61b30c9fc40d5d1971906bb68aca6c">
+        <dex dex="E:\Android Studio Workspace\snap-donate-andriod-github\snapDonate\build\intermediates\pre-dexed\debug\twitter4j-core-3.0.5-f1eab891f10c5229e50a56cb942d231c7562a968.jar" />
+    </item>
+    <item
+        jar="E:\Android Studio Workspace\snap-donate-andriod-github\snapDonate\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\7.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a0ce76dfaccbfbd6c551ed2174280aaabe60fe47">
+        <dex dex="E:\Android Studio Workspace\snap-donate-andriod-github\snapDonate\build\intermediates\pre-dexed\debug\classes-c7876e22ee29ee49716d24c07909d25a4d004496.jar" />
+    </item>
+    <item
+        jar="E:\Android Studio Workspace\snap-donate-andriod-github\snapDonate\src\main\Vuforia.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="65d210365ebcbcb3c5b93b6db0ca4126f6bcf46d">
+        <dex dex="E:\Android Studio Workspace\snap-donate-andriod-github\snapDonate\build\intermediates\pre-dexed\debug\Vuforia-bdf4e40c2c20e75887bb4e4672556589d2792204.jar" />
+    </item>
+    <item
+        jar="E:\Android Studio Workspace\snap-donate-andriod-github\snapDonate\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\7.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="565a01f90f1529f73362707c4c185d0623a68782">
+        <dex dex="E:\Android Studio Workspace\snap-donate-andriod-github\snapDonate\build\intermediates\pre-dexed\debug\classes-d00b008cf2f0492a15f46db280d4fc9a2a2880e8.jar" />
+    </item>
+    <item
+        jar="E:\Android Studio Workspace\snap-donate-andriod-github\snapDonate\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7215ac1f2fca947b9415a6ee2a1bf991364aab24">
+        <dex dex="E:\Android Studio Workspace\snap-donate-andriod-github\snapDonate\build\intermediates\pre-dexed\debug\classes-fd4230ff118f74f5d75adfed3dd1c389a93cefcb.jar" />
+    </item>
+    <item
+        jar="E:\Android Studio Workspace\snap-donate-andriod-github\snapDonate\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\7.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e5bf453b070c1e39297986144960e45afa0fdfad">
+        <dex dex="E:\Android Studio Workspace\snap-donate-andriod-github\snapDonate\build\intermediates\pre-dexed\debug\classes-8d20b320e516d7ee98c122ecf597efe205ff90e6.jar" />
+    </item>
+    <item
+        jar="E:\Android Studio Workspace\snap-donate-andriod-github\snapDonate\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\7.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="59652857a825fff0de62166fca1bc9553cc01abb">
+        <dex dex="E:\Android Studio Workspace\snap-donate-andriod-github\snapDonate\build\intermediates\pre-dexed\debug\classes-5aea11cef4c6ee80249534eb79c43896bf36fbce.jar" />
+    </item>
+    <item
+        jar="E:\adt-bundle-windows-x86_64-20140702\adt-bundle-windows-x86_64-20140702\sdk\extras\android\m2repository\com\android\support\support-annotations\22.0.0\support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="E:\Android Studio Workspace\snap-donate-andriod-github\snapDonate\build\intermediates\pre-dexed\debug\support-annotations-22.0.0-efda05d09b6b39a55cf2c46546e0d832126c7014.jar" />
+    </item>
+    <item
+        jar="E:\Android Studio Workspace\snap-donate-andriod-github\snapDonate\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\7.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4f4fe3c23776540625f3c2844152a7510fddf9f1">
+        <dex dex="E:\Android Studio Workspace\snap-donate-andriod-github\snapDonate\build\intermediates\pre-dexed\debug\classes-f9f569c2965014d77ef051244415cc7dd903a4df.jar" />
+    </item>
+    <item
+        jar="E:\Android Studio Workspace\snap-donate-andriod-github\snapDonate\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\jars\libs\internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="E:\Android Studio Workspace\snap-donate-andriod-github\snapDonate\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-c4da087415de991f5bfde7ceaf32ce042b0b7d22.jar" />
+    </item>
+    <item
+        jar="E:\Android Studio Workspace\snap-donate-andriod-github\snapDonate\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\7.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0708ef60917bf94913fe9ef972a655b99462dca7">
+        <dex dex="E:\Android Studio Workspace\snap-donate-andriod-github\snapDonate\build\intermediates\pre-dexed\debug\classes-d6006e07cf86b1946417e6dab44aff69436d3ed2.jar" />
+    </item>
+    <item
+        jar="E:\Android Studio Workspace\snap-donate-andriod-github\snapDonate\libs\FlurryAnalytics-4.1.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0da490dfcae8989ae918b7a9c5115853ab098d27">
+        <dex dex="E:\Android Studio Workspace\snap-donate-andriod-github\snapDonate\build\intermediates\pre-dexed\debug\FlurryAnalytics-4.1.0-5aa0bd85a7bfa0d7ac959292051acba37e808b0a.jar" />
+    </item>
+    <item
+        jar="E:\Android Studio Workspace\snap-donate-andriod-github\snapDonate\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\7.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3b4ff5c39dace8f3b4ab4cab8191785547a0815f">
+        <dex dex="E:\Android Studio Workspace\snap-donate-andriod-github\snapDonate\build\intermediates\pre-dexed\debug\classes-617b20cf2cae732f71b860bd0c8e6f54827981cc.jar" />
+    </item>
+    <item
+        jar="E:\Android Studio Workspace\snap-donate-andriod-github\snapDonate\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9c9dea9e85aceb09d95df5e6f7bc8a43fc286068">
+        <dex dex="E:\Android Studio Workspace\snap-donate-andriod-github\snapDonate\build\intermediates\pre-dexed\debug\classes-3cfd6dc0d9b66a074ad5de33f370d045216554ee.jar" />
+    </item>
+    <item
+        jar="E:\Android Studio Workspace\snap-donate-andriod-github\snapDonate\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3988694bf9d8186ff97ad5cdfa4ed88b5010fe08">
+        <dex dex="E:\Android Studio Workspace\snap-donate-andriod-github\snapDonate\build\intermediates\pre-dexed\debug\classes-c6052cd953a098650318a143f1e58cf2f5c42256.jar" />
+    </item>
+    <item
+        jar="E:\Android Studio Workspace\snap-donate-andriod-github\snapDonate\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="E:\Android Studio Workspace\snap-donate-andriod-github\snapDonate\build\intermediates\pre-dexed\debug\classes-2708f10621fda07ebb4c42b28af7b30a00d03b12.jar" />
+    </item>
+
+</items>

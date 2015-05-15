@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<View xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:background="?android:attr/listDivider" />
+<!-- From: file:/E:/Android%20Studio%20Workspace/snap-donate-andriod-github/snapDonate/src/main/res/layout/snap_donate_app_menu_group_divider.xml -->

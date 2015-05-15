@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:weightSum="11.2" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10.7"
+        android:background="@drawable/menu_bg"
+        android:contentDescription="Tabs"
+        android:orientation="horizontal" >
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.6"
+            android:background="@drawable/menu_seperater" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="8.2" />
+
+        <LinearLayout
+            android:id="@+id/tabTodoLinearLayout"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="9.6"
+            android:contentDescription="todo tab"
+            android:orientation="vertical"
+            android:weightSum="10.7" >
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.8" />
+
+            <ImageView
+                android:id="@+id/tabIndicatorTodoImageView"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="4.8"
+                android:scaleType="centerInside"
+                android:src="@drawable/todonormal" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.7" />
+
+            <TextView
+                android:id="@+id/tabIndicatorTodoTextView"
+                style="@style/_32px"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3.4"
+                android:gravity="top|center"
+                android:text="@string/to_do"
+                android:textColor="@color/tab_normal" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="6.3" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.6"
+            android:background="@drawable/menu_seperater" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:orientation="horizontal" >
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="8.8" />
+
+        <ImageView
+            android:id="@+id/tabIndicatorTodoBarImageView"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="8.4"
+            android:scaleType="centerInside"
+            android:src="@drawable/todostrip"
+            android:visibility="invisible" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="8.1" />
+    </LinearLayout>
+
+</LinearLayout>

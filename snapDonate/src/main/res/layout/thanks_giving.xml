@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    android:weightSum="77.1" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="23.1"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/thanksYouDonationTextView"
+            style="@style/_60px"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="7.4"
+            android:gravity="center|bottom"
+            android:text="@string/thanks_donation"
+            android:textColor="@color/tab_selected" />
+
+        <TextView
+            android:id="@+id/refrenceDonationTextView"
+            style="@style/_48px"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="6.7"
+            android:gravity="center|top"
+            android:textColor="@color/tab_selected" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="40.4"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4.5" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="90.8"
+            android:background="@android:color/white"
+            android:orientation="vertical"
+            android:weightSum="49.3" >
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3.3" />
+
+            <TextView
+                android:id="@+id/shareTextView"
+                style="@style/_48px"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="5.1"
+                android:gravity="center|top"
+                android:text="@string/share_your_onation"
+                android:textColor="@color/tab_selected" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="7.9"
+                android:orientation="horizontal" >
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="27.8" />
+
+                <ImageView
+                    android:id="@+id/facebookShareImageView"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="14.0"
+                    android:onClick="onFacebookPostBtnClick"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/fb" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="7.3" />
+
+                <ImageView
+                    android:id="@+id/twitterShareImageView"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="14.0"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/tw" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="27.8" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="4.3" />
+
+            <TextView
+                android:id="@+id/addCharityFutureUseTextView"
+                style="@style/_48px"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="8.5"
+                android:gravity="center|top"
+                android:text="@string/add_charity_favourite"
+                android:textColor="@color/tab_selected" />
+
+            <ImageView
+                android:id="@+id/thanksGivingCharityLogoImageView"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="10.4"
+                android:scaleType="centerInside" />
+
+            <TextView
+                android:id="@+id/charityNameTextView"
+                style="@style/_60px"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="10.4"
+                android:gravity="center"
+                android:text="@string/add_charity_favourite"
+                android:textColor="@color/pink"
+                android:visibility="gone" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3.1" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3.2"
+                android:orientation="horizontal"
+                android:weightSum="90.8" >
+
+                <LinearLayout
+                    android:id="@+id/addFavLinearLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="27.8" />
+
+                    <ImageView
+                        android:id="@+id/addFavStarImageView"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4.9"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/favorite" />
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2.0" />
+
+                    <TextView
+                        android:id="@+id/addFavTextView"
+                        style="@style/_48px"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="56.1"
+                        android:gravity="center|left"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/favorite"
+                        android:text="@string/add_to_favorites"
+                        android:textColor="@color/tab_selected" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3.5" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4.6" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="13.6"
+        android:orientation="horizontal"
+        android:weightSum="100" >
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4.5" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="90.8"
+            android:orientation="vertical" >
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.8" />
+
+            <Button
+                android:id="@+id/snapeAgainButton"
+                style="@style/_60px"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="10"
+                android:background="@drawable/headerbg"
+                android:text="@string/snap_again"
+                android:textColor="@android:color/white" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.8" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4.6" />
+    </LinearLayout>
+
+</LinearLayout>

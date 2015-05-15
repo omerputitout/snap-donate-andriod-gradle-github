@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    android:weightSum="77.1" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8.9"
+        android:orientation="vertical" >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2.7" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5.1"
+            android:orientation="horizontal" >
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="4.6" />
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="88.8" >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/searchbg" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="88.8" >
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2.3" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4.8"
+                        android:orientation="vertical"
+                        android:weightSum="5.1" >
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1.1" />
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="2.9"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/searchico" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1.1" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2.3" />
+
+                    <EditText
+                        android:id="@+id/searchEditText"
+                        style="@style/_48px"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="71.1"
+                        android:background="@null"
+                        android:gravity="center|left"
+                        android:hint="@string/search_hint"
+                        android:paddingRight="5dp"
+                        android:singleLine="true"
+                        android:textColor="#c2c2c2"
+                        android:textColorHint="#c2c2c2" />
+
+                    <LinearLayout
+                        android:id="@+id/cancelSearchLinearLayout"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="5.6"
+                        android:orientation="vertical"
+                        android:visibility="invisible"
+                        android:weightSum="5.1" >
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="0.9" />
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="3.1"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/closesearch" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1.1" />
+                    </LinearLayout>
+
+                    <View
+                        android:id="@+id/cancelSearchView"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2.2" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="6.6" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.1" />
+    </LinearLayout>
+
+    <com.snapdonate.app.utils.IndexableListView
+        android:id="@+id/searchListView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="68.2"
+        android:background="@color/background"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="@null"
+        android:overScrollMode="never"
+        android:scrollbars="none" />
+
+</LinearLayout><!-- From: file:/E:/Android%20Studio%20Workspace/snap-donate-andriod-github/snapDonate/src/main/res/layout/search.xml -->

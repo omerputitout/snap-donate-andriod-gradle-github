@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    android:weightSum="77.1" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="28.4"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3.8"
+            tools:ignore="NestedWeights" />
+
+        <TextView
+            android:id="@+id/youHaveSnappedTextView"
+            style="@style/_60px"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4.0"
+            android:gravity="center|top"
+            android:text="@string/you_have_snaped"
+            android:textColor="@color/tab_selected" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="20.7"
+            android:orientation="horizontal" >
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="4.4" />
+
+            <ImageView
+                android:id="@+id/charityLogoImageView"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="90.9"
+                android:contentDescription="@string/app_description"
+                android:padding="20dp"
+                android:scaleType="centerInside" />
+
+            <TextView
+                android:id="@+id/charityNameTextView"
+                style="@style/_100px"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="90.9"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:maxLines="2"
+                android:padding="10dp"
+                android:text="@string/you_have_snaped"
+                android:textColor="@color/tab_selected"
+                android:visibility="gone" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="4.6" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="45.9"
+        android:orientation="horizontal"
+        android:weightSum="100" >
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4.4"
+            tools:ignore="NestedWeights" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="90.9"
+            android:background="@android:color/white"
+            android:orientation="vertical"
+            android:weightSum="45.9" >
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2.3" />
+
+            <TextView
+                android:id="@+id/pickHowDonateTextView"
+                style="@style/_48px"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="5.9"
+                android:gravity="center|top"
+                android:text="@string/pick_how_much_you_want_to_donate"
+                android:textColor="@color/tab_selected" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="9.0"
+                android:orientation="horizontal" >
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="13.8"
+                    tools:ignore="NestedWeights" />
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="16.0" >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:contentDescription="@string/app_description"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/one" />
+
+                    <TextView
+                        android:id="@+id/twoPoundDonationTextView"
+                        style="@style/_80px"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:tag="2"
+                        android:text="@string/pound_2"
+                        android:textColor="@color/amount_btn_selector" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="7.6" />
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="16.0" >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:contentDescription="@string/app_description"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/one" />
+
+                    <TextView
+                        android:id="@+id/threePoundDonationTextView"
+                        style="@style/_80px"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:tag="3"
+                        android:text="@string/pound_3"
+                        android:textColor="@color/amount_btn_selector" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="7.7" />
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="15.9" >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:contentDescription="@string/app_description"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/one" />
+
+                    <TextView
+                        android:id="@+id/fourPoundDonationTextView"
+                        style="@style/_80px"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:tag="4"
+                        android:text="@string/pound_4"
+                        android:textColor="@color/amount_btn_selector" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="13.9" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3.2" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="9.0"
+                android:orientation="horizontal" >
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="13.8"
+                    tools:ignore="NestedWeights" />
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="16.0" >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:contentDescription="@string/app_description"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/five" />
+
+                    <TextView
+                        android:id="@+id/fivePoundDonationTextView"
+                        style="@style/_80px"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:tag="5"
+                        android:text="@string/pound_5"
+                        android:textColor="@color/amount_btn_selector" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="7.6" />
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="16.0" >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:contentDescription="@string/app_description"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/five" />
+
+                    <TextView
+                        android:id="@+id/tenPoundDonationTextView"
+                        style="@style/_80px"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:tag="10"
+                        android:text="@string/pound_10"
+                        android:textColor="@color/amount_btn_selector" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="7.7" />
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="15.9" >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:contentDescription="@string/app_description"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/five" />
+
+                    <TextView
+                        android:id="@+id/fifteenPoundDonationTextView"
+                        style="@style/_80px"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:tag="15"
+                        android:text="@string/pound_15"
+                        android:textColor="@color/amount_btn_selector" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="13.9" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3.2" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="9.0"
+                android:orientation="horizontal" >
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="13.8"
+                    tools:ignore="NestedWeights" />
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="16.0" >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:contentDescription="@string/app_description"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/twenty" />
+
+                    <TextView
+                        android:id="@+id/tweentyPoundDonationTextView"
+                        style="@style/_80px"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:tag="20"
+                        android:text="@string/pound_20"
+                        android:textColor="@color/amount_btn_selector" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="7.6" />
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="16.0" >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:contentDescription="@string/app_description"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/twenty" />
+
+                    <TextView
+                        android:id="@+id/twentyFivePoundDonationTextView"
+                        style="@style/_80px"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:tag="25"
+                        android:text="@string/pound_25"
+                        android:textColor="@color/amount_btn_selector" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="7.7" />
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="15.9" >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:contentDescription="@string/app_description"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/twenty" />
+
+                    <TextView
+                        android:id="@+id/fiftyPoundDonationTextView"
+                        style="@style/_80px"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:tag="50"
+                        android:text="@string/pound_50"
+                        android:textColor="@color/amount_btn_selector" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="13.9" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="4.2" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4.6" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2.7" />
+
+</LinearLayout>

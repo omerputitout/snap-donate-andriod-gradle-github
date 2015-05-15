@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:weightSum="11.2" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10.7"
+        android:background="@drawable/menu_bg"
+        android:contentDescription="Tabs"
+        android:orientation="horizontal" >
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="17.2" />
+
+        <LinearLayout
+            android:id="@+id/tabSnapLinearLayout"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="12.3"
+            android:contentDescription="Camera tab"
+            android:orientation="vertical"
+            android:weightSum="10.7" >
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.4" />
+
+            <ImageView
+                android:id="@+id/tabIndicatorSnapImageView"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="5.4"
+                android:scaleType="centerInside"
+                android:src="@drawable/snapactive" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.6" />
+
+            <TextView
+                android:id="@+id/tabIndicatorSnapTextView"
+                style="@style/_32px"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3.3"
+                android:gravity="center|top"
+                android:text="@string/snap"
+                android:textColor="@color/tab_selected" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="7.5" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:orientation="horizontal" >
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="17.5" />
+
+        <ImageView
+            android:id="@+id/tabIndicatorSnapBarImageView"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="11.5"
+            android:scaleType="centerInside"
+            android:src="@drawable/snapstrip" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="7.6" />
+    </LinearLayout>
+
+</LinearLayout>

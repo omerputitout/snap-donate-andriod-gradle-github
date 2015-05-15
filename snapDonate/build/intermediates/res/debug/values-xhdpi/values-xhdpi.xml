@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/E:/Android%20Studio%20Workspace/snap-donate-andriod-github/snapDonate/src/main/res/values-xhdpi/dimens.xml -->
+    <eat-comment/>
+    <dimen name="menu_entries_text">10sp</dimen>
+    <dimen name="menu_entries_title">8sp</dimen>
+    <!-- From: file:/E:/Android%20Studio%20Workspace/snap-donate-andriod-github/snapDonate/src/main/res/values-xhdpi/styles.xml -->
+    <eat-comment/>
+    <style name="SampleAppsTheme" parent="@android:style/Theme.Light">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+    <style name="_100px">
+        <item name="android:textSize">66.67px</item>
+    </style>
+    <style name="_140px">
+        <item name="android:textSize">93.33px</item>
+    </style>
+    <style name="_32px">
+        <item name="android:textSize">21.33px</item>
+    </style>
+    <style name="_36px">
+        <item name="android:textSize">21.33px</item>
+    </style>
+    <style name="_48px">
+        <item name="android:textSize">32px</item>
+    </style>
+    <style name="_52px">
+        <item name="android:textSize">34.67px</item>
+    </style>
+    <style name="_60px">
+        <item name="android:textSize">40px</item>
+    </style>
+    <style name="_80px">
+        <item name="android:textSize">53.33px</item>
+    </style>
+</resources>

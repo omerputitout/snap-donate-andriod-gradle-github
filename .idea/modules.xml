@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/snap-donate-andriod-github.iml" filepath="$PROJECT_DIR$/snap-donate-andriod-github.iml" />
+      <module fileurl="file://$PROJECT_DIR$/snapDonate/snapDonate.iml" filepath="$PROJECT_DIR$/snapDonate/snapDonate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/swipeToDismissUndoListmaster/swipeToDismissUndoListmaster.iml" filepath="$PROJECT_DIR$/swipeToDismissUndoListmaster/swipeToDismissUndoListmaster.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    android:weightSum="77.1" >
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5.7" />
+
+    <LinearLayout
+        android:id="@+id/aboutSnapDonateLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5.4"
+        android:orientation="horizontal" >
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="16.9"
+            tools:ignore="NestedWeights" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="13.0"
+            android:contentDescription="@string/app_description"
+            android:scaleType="centerInside"
+            android:src="@drawable/about" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5.4" />
+
+        <TextView
+            android:id="@+id/aboutSnapeDonateTextView"
+            style="@style/_48px"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="64.7"
+            android:gravity="center|left"
+            android:text="@string/about_snapdonate"
+            android:textColor="@color/tab_normal" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2.2" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.15"
+        android:background="@drawable/moresep"
+        android:contentDescription="@string/app_description" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.15"
+        android:background="@drawable/moresep"
+        android:contentDescription="@string/app_description"
+        android:visibility="gone" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2.0" />
+
+    <LinearLayout
+        android:id="@+id/privacyLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5.7"
+        android:orientation="horizontal" >
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="19.2"
+            tools:ignore="NestedWeights" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="7.4"
+            android:contentDescription="@string/app_description"
+            android:scaleType="centerInside"
+            android:src="@drawable/privacy" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="8.8" />
+
+        <TextView
+            android:id="@+id/privacyTextView"
+            style="@style/_48px"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="64.6"
+            android:gravity="center|left"
+            android:text="@string/privacy"
+            android:textColor="@color/tab_normal" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2.1" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.15"
+        android:background="@drawable/moresep"
+        android:contentDescription="@string/app_description" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2.0" />
+
+    <LinearLayout
+        android:id="@+id/termsAndConditionLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5.6"
+        android:orientation="horizontal" >
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="18.8"
+            tools:ignore="NestedWeights" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="7.9"
+            android:contentDescription="@string/app_description"
+            android:scaleType="centerInside"
+            android:src="@drawable/terms" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="8.4" />
+
+        <TextView
+            android:id="@+id/termsAndConditionsTextView"
+            style="@style/_48px"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="64.9"
+            android:gravity="center|left"
+            android:text="@string/terms_conditions"
+            android:textColor="@color/tab_normal" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="36.4" />
+
+</LinearLayout><!-- From: file:/E:/Android%20Studio%20Workspace/snap-donate-andriod-github/snapDonate/src/main/res/layout/menu.xml -->

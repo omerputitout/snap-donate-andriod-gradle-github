@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="210px"
+    android:orientation="horizontal"
+    android:weightSum="90.9" >
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="35.4"
+        android:orientation="horizontal" >
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5.0" />
+
+        <ImageView
+            android:id="@+id/todoCharityLogoImageView"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="top|left"
+            android:layout_weight="30.4"
+            android:paddingBottom="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/cancer" />
+
+        <TextView
+            android:id="@+id/todoCharityNameTextView"
+            style="@style/_48px"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="30.4"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="3"
+            android:paddingRight="10dp"
+            android:textColor="@color/tab_selected"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="18.7"
+        android:orientation="vertical"
+        android:weightSum="10.9" >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.7" />
+
+        <TextView
+            android:id="@+id/todoAmountTextView"
+            style="@style/_100px"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="7.1"
+            android:gravity="top|left"
+            android:text="20"
+            android:textColor="@color/tab_selected" />
+
+        <TextView
+            android:id="@+id/todoDateTextView"
+            style="@style/_32px"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3.1"
+            android:gravity="top|left"
+            android:text="3/73/12"
+            android:textColor="@color/tab_selected" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="7.8" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="29.1"
+        android:orientation="vertical"
+        android:weightSum="10.9" >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.5" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4.2"
+            android:orientation="horizontal"
+            android:weightSum="29.1" >
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="4.1" />
+
+            <Button
+                android:id="@+id/todoFinishNowButton"
+                style="@style/_36px"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="19.4"
+                android:background="@drawable/finishnow"
+                android:text="@string/finish_now"
+                android:textColor="@color/amount_btn_selector" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4.0" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.2" />
+    </LinearLayout>
+
+</LinearLayout>

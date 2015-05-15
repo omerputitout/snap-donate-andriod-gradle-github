@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Snap Donate</string>
+    <string name="app_description">Snap Donate Sample Applications</string>
+    <string name="button_start">Start</string>
+    <string name="activities_list_title_string">Vuforia Samples</string>
+    <string name="activities_list_empty">No activities</string>
+    <string name="update_error_authorization_failed_title">Authorization Error</string>
+    <string name="update_error_project_suspended_title">Authorization Error</string>
+    <string name="update_error_no_network_connection_title">Network Unavailable</string>
+    <string name="update_error_service_not_available_title">Service Unavailable</string>
+    <string name="update_error_update_sdk_title">Unsupported Version</string>
+    <string name="update_error_timestamp_out_of_range_title">Clock Sync Error</string>
+    <string name="update_error_request_timeout_title">Request Timeout</string>
+    <string name="update_error_bad_frame_quality_title">Poor Camera Image</string>
+    <string name="update_error_unknown_title">Service Unavailable</string>
+    <string name="update_error_authorization_failed_desc">The cloud recognition service access keys are incorrect or have expired.</string>
+    <string name="update_error_project_suspended_desc">The cloud recognition service has been suspended.</string>
+    <string name="update_error_no_network_connection_desc">Please check your internet connection and try again.</string>
+    <string name="update_error_service_not_available_desc">The service is unavailable, please try again later.</string>
+    <string name="update_error_update_sdk_desc">The application is using an unsupported version of Vuforia.</string>
+    <string name="update_error_timestamp_out_of_range_desc">Please update the date and time and try again.</string>
+    <string name="update_error_request_timeout_desc">The network request has timed out, please check your internet connection and try again.</string>
+    <string name="update_error_bad_frame_quality_desc">The camera does not have enough detail, please try again later.</string>
+    <string name="update_error_unknown_desc">The service is unavaiable, please try again later.</string>
+    <string name="content_desc_camera_button">Camera Button</string>
+    <string name="overlay_build_target_help">Hold the device parallel to the target</string>
+    <string name="target_quality_error_title">Low Quality Image</string>
+    <string name="target_quality_error_desc">The image has very little detail, please try another.</string>
+    <string name="menu_back">Vuforia Samples</string>
+    <string name="menu_extended_tracking">Extended Tracking</string>
+    <string name="menu_character_mode">Character Mode</string>
+    <string name="menu_flash">Flash</string>
+    <string name="menu_flash_error_on">Unable to turn on flash</string>
+    <string name="menu_flash_error_off">Unable to turn off flash</string>
+    <string name="autofocus">Autofocus</string>
+    <string name="autofocus_error_on">Unable to activate Continuous Auto-Focus</string>
+    <string name="autofocus_error_off">Unable to deactivate Continuous Auto-Focus</string>
+    <string name="menu_datasets">DATASETS</string>
+    <string name="menu_camera">CAMERA</string>
+    <string name="menu_camera_front">Front</string>
+    <string name="menu_camera_back">Rear</string>
+    <string name="menu_button_red">Red</string>
+    <string name="menu_button_blue">Blue</string>
+    <string name="menu_button_yellow">Yellow</string>
+    <string name="menu_button_green">Green</string>
+    <string name="splash_screen_description">Vuforia Splash</string>
+
+    <!-- My App Strings -->
+    <string name="snap">SNAP</string>
+    <string name="to_do">TO DO</string>
+    <string name="faqs">FAQS</string>
+    <string name="favorites">FAVORITES</string>
+    <string name="history">HISTORY</string>
+    <string name="lets_donate">Ready to begin? Let\’s get snapping</string>
+    <string name="fit_the_charity_logo">Ready to begin? Let\’s get snapping\nFit a charity logo in the frame and tap to focus</string>
+    <string name="not_snaping">Press to search for a charity by name</string>
+    <string name="you_have_snaped">You have snapped#8230;</string>
+    <string name="you_have_chosen">You\'ve chosen#8230;</string>
+    <string name="pick_how_much_you_want_to_donate">Choose how much to give</string>
+    <string name="you_have_chosen_to_donate">You want to donate</string>
+    <string name="donate_now">Donate now</string>
+    <string name="Save_for_later">Save for later</string>
+    <string name="pound_4">£4</string>
+    <string name="pound_2">£2</string>
+    <string name="pound_3">£3</string>
+    <string name="pound_5">£5</string>
+    <string name="pound_10">£10</string>
+    <string name="pound_15">£15</string>
+    <string name="pound_20">£20</string>
+    <string name="pound_25">£25</string>
+    <string name="pound_50">£50</string>
+    <string name="ok">OK</string>
+    <string name="no">No</string>
+    <string name="cancel">Cancel</string>
+    <string name="todo">Todo</string>
+    <string name="save">Save</string>
+    <string name="ontinue">Continue</string>
+    <string name="you_re_offline_making_donation">Uh oh, you\'re offline and making a donation requires a data connection! Please save your pledge to your To Do list and complete your donation later</string>
+    <string name="we_saved_donation">We have saved your donation of </string>
+    <string name="wonderful_people_at_justgiving">We work with the wonderful people at JustGiving to enable you to donate quickly and securely.</string>
+    <string name="wonderful_people_at_virginmoney">We work with the wonderful people at Virgin Money to enable you to donate quickly and securely.</string>
+    <string name="share_your_onation">Share your donation</string>
+    <string name="add_charity_favourite">Add this charity to your\nfavourites for future donations</string>
+    <string name="add_to_favorites">Add to favorites</string>
+    <string name="snap_again">Snap again</string>
+    <string name="thanks_donation">Thanks a million for your gift.\nFeel good? You beautiful person</string>
+    <string name="your_reference_number">Your reference number is:</string>
+    <string name="twitter_posted"> Posted on Twitter</string>
+    <string name="facebook_posted">Posted on Facebook</string>
+    <string name="twitter_subject">I have just donated via SnapDonate! @SnapDonateApp</string>
+    <!-- <string name="facebook_app_id">1460570937538086</string> -->
+    <!-- new -->
+    <string name="facebook_app_id">940378555978364</string>
+    <string name="todo_description_text">You have snapped all the charities shown\nbelow and chosen specific amounts to give.\nAre you ready to complete each donation?</string>
+    <string name="no_record_found">You\'ve got no charities awaiting donation!</string>
+    <string name="finish_now">Finish now</string>
+    <string name="search_hint">Enter charity name</string>
+    <string name="favourite_description_text">You can donate directly to favourite charities by clicking on your logos below.</string>
+    <string name="history_description_text">Here is a summary of all your donations.\nYou can use this list to quickly give again\nand even change the amounts if you wish</string>
+    <string name="donate">Donate</string>
+    <string name="donate_again">Donate again</string>
+    <string name="total_donations">TOTAL DONATIONS</string>
+    <string name="about_snapdonate">ABOUT SNAPDONATE</string>
+    <string name="share">SHARE</string>
+    <string name="privacy">PRIVACY</string>
+    <string name="terms_conditions">TERMS &amp; CONDITIONS</string>
+    <string name="share_snap_donate">Share SnapDonate</string>
+    <string name="email_subject">Check out the brand new way of donating to charities with the SnapDonate App!</string>
+    <string name="email_body">Hey,\n\nI\'ve just found a new way of donating to the charities I care about with SnapDonate.\n\nSimply open the app on your phone, point the camera at the charity logo and the app will recognise it. It\'s awesome. Choose how much you want to give – and that\'s it. All donations are securely processed via JustGiving.\n\nIt\'s totally free to use and is available on iOS and Android. Now you can donate to charities wherever and whenever you want!\n\nHave a great day!\n\nPS. SnapDonateApp is available on iOS [link to AppStore] and Android [link to Google Play]. Have a look!</string>
+    <string name="facebook">Facebook</string>
+    <string name="send_a_status_update">Post a Facebook update</string>
+    <string name="twitter">Twitter</string>
+    <string name="tweet_about_snapdonate">Tweet about SnapDonate</string>
+    <string name="send_an_email_to_your_friends">Send an email to your friends</string>
+    <string name="email">Email</string>
+    <string name="what_is_snapdonate">What is SnapDonate?</string>
+    <string name="about_text">SnapDonate is a new \'magic lens\' app that enables you to make quick one-off gifts to charity when you have no cash on you. Point your phone at a charity logo and – in a snap – you will have helped a good cause.\n\nThere are no SMS numbers nor QR codes to fiddle with. SnapDonate does not even need an internet connection and so it works everywhere: out in the street, on a train, or from your sofa.\n\nThe app was created by the SnapDonate Foundation, a not-for-profit entity that aims to keep impulse giving alive in an increasingly cashless society.\n\nThis is all possible due to the passion of people who believe that tomorrow will be brighter if we pull together. Join our mission to make the world a better place. One donation at a time.\nSnapDonate.org\n</string>
+    <string name="about_tip">\n* To begin with, the app recognises dozens of the UK charities. The remaining 13,000 or so are all accessible by means of a drop-down list.</string>
+    <string name="Privacy_lowercase">Privacy</string>
+    <string name="terms_and_conditions">Terms &amp; Conditions</string>
+    <string name="no_internet_donation"> Uh oh, you\'re offline and making a donation requires a data connection!</string>
+    <string name="read_more_of_this_FAQ">Read more of this FAQ</string>
+    <string name="terms_and_conditions_description"><b>TERMS OF APP USE</b> \n\nPlease read these terms of use carefully before you start to use the app. By using our app, you indicate that you accept these terms of use and that you agree to abide by them. If you do not agree to these terms of use, please refrain from using our app.
+\n\n<b>RELIANCE ON INFORMATION POSTED &amp; DISCLAIMER</b> \n\nThe materials contained on our app are provided for general information purposes only and do not claim to be or constitute legal or other professional advice and shall not be relied upon as such.
+\nWe do not accept any responsibility for any loss which may arise from accessing or reliance on the information on this app and to the fullest extent permitted by English law, we exclude all liability for loss or damages direct or indirect arising from use of this app.
+
+\n\n<b>INFORMATION ABOUT US</b> \n\nSnapDonate is an app operated by SnapDonate ® Foundation Ltd. ("We"); we are a company registered in England and Wales under registration number 9171932. Our registered office is 77-79 Great Eastern Street, London, EC2A 3HU.  
+\n\n<b>ACCESSING OUR APP</b> \n\nAccess to our app is permitted on a temporary basis, and we reserve the right to withdraw or amend the service we provide on our app without notice (see below). We will not be liable if for any reason our app is unavailable at any time or for any period.
+\n\n<b>INTELLECTUAL PROPERTY RIGHTS</b> \n\nWe are the owner or the licensee of all intellectual property rights in our app, and in the material published on it.  Those works are protected by copyright laws and treaties around the world.  All such rights are reserved. 
+\nYou may make a screen shot of any page(s) from our app for your personal reference and you may draw the attention of others within your organisation to material posted on our app.  
+\nYou must not modify the paper or digital copies of any materials you have copied in any way, and you must not use any illustrations, photographs, video or audio sequences or any graphics separately from any accompanying text. 
+\nOur status (and that of any identified contributors) as the authors of material on our app must always be acknowledged. 
+\nYou must not use any part of the materials on our app for commercial purposes without obtaining a licence to do so from us or our licensors.
+\nIf you print off, copy or download any part of our app in breach of these terms of use, your right to use our app will cease immediately and you must, at our option, return or destroy any copies of the materials you have made.
+\n\n<b>OUR APP CHANGES REGULARLY</b> \n\nWe aim to update our app regularly, and may change the content at any time. If the need arises, we may suspend access to our app, or close it indefinitely. Any of the material on our app may be out of date at any given time, and we are under no obligation to update such material. 
+\n\n<b>OUR LIABILITY</b> \n\nThe material displayed on our app is provided without any guarantees, conditions or warranties as to its accuracy. To the extent permitted by law, we, and third parties connected to us hereby expressly exclude:
+\n<b>•</b>	All conditions, warranties and other terms which might otherwise be implied by statute, common law or the law of equity.
+\n<b>•</b>	Any liability for any direct, indirect or consequential loss or damage incurred by any user in connection with our site or in connection with the use, inability to use, or results of the use of our site, any websites linked to it and any materials posted on it, including, without limitation any liability for:
+\n<b>•</b>	loss of income or revenue;
+\n<b>•</b>	loss of business;
+\n<b>•</b>	loss of profits or contracts;
+\n<b>•</b>	loss of anticipated savings;
+\n<b>•</b>	loss of data;
+\n<b>•</b>	loss of goodwill;
+\n<b>•</b>	wasted management or office time; and
+\nfor any other loss or damage of any kind, however arising and whether caused by tort (including negligence), breach of contract or otherwise, even if foreseeable, provided that this condition shall not prevent claims for loss of or damage to your tangible property or any other claims for direct financial loss that are not excluded by any of the categories set out above.
+
+\n\nThis does not affect our liability for death or personal injury arising from our negligence, nor our liability for fraudulent misrepresentation or misrepresentation as to a fundamental matter, nor any other liability which cannot be excluded or limited under applicable law.
+\n\n<b>INFORMATION ABOUT YOU AND YOU USE OF OUR APP</b> \n\nWe process information about you in accordance with our privacy policy.  By using our app, you consent to such processing and you warrant that all data provided by you is accurate. 
+\n\n<b>JURISDICTION AND APPLICABLE LAW</b> \n\nThe English courts will have non-exclusive jurisdiction over any claim arising from, or related to using our app.  
+\nThese terms of use and any dispute or claim arising out of or in connection with them or their subject matter or formation (including non-contractual disputes or claims) shall be governed by and construed in accordance with the law of England and Wales.
+\n\n<b>TRADE MARKS</b> \n\nSnapDonate is a UK registered trade mark of The Capital Markets Company Ltd. 
+\n\n<b>VARIATIONS</b> \n\nWe may revise these terms of use at any time by amending this page. You are expected to check this page from time to time to take notice of any changes we made, as they are binding on you. Some of the provisions contained in these terms of use may also be superseded by provisions or notices published elsewhere on our site.
+\n\n<b>YOUR CONCERNS</b> \n\nIf you have any concerns about material which appears on our site, please contact hello@snapdonate.org
+
+\n\nThank you for using our app.</string>
+    <string name="privacy_description">SnapDonate ® Foundation Ltd (\"We\") are committed to protecting and respecting your privacy.
+\n\nThis policy (together with our terms of use and any other documents referred to on it) sets out the basis on which any personal data we collect from you, or that you provide to us, will be processed by us.  Please read the following carefully to understand our views and practices regarding your personal data and how we will treat it. 
+\n\nFor the purpose of the Data Protection Act 1998 (the Act), the data controller is SnapDonate Foundation Ltd of 77-79 Great Eastern Street, London, EC2A 3HU (registration number 9171932). 
+\n\nThis policy only applies to our app. If you leave our app via a link or otherwise, you will be subject to the policy of that app/website provider. We have no control over that policy or the terms of the website and you should check their policy before continuing to access the site.
+\n\n<b>INFORMATION WE MAY COLLECT FROM YOU</b> \n\nWe may collect and process the following data about you:
+\n<b>•</b>	If you contact us, we may keep a record of that correspondence.
+\n<b>•</b>	We may also ask you to complete surveys that we use for research purposes, although you do not have to respond to them.
+\n<b>•</b>	Details of your visits to our app including, but not limited to, traffic data, location data, operating system, carrier and other communication data, whether this is required for our own purposes or otherwise and the resources that you access. 
+\n\n<b>WHAT PERSONAL DATA WE STORE</b> \n\nWe do not ask you to register any personal detail when you use our app. We therefore do not store any personal information about you. 
+\n\nIn order to send reminders to you, we store your unique device ID.
+\n\n<b>USES MADE OF THE INFORMATION</b> \n\nWe use your device ID in the following ways:
+\n<b>•</b>	To notify you about outstanding donations in your To Do list.
+\n\n<b>DISCLOSURE OF YOUR INFORMATION</b> \n\nWe may disclose your personal information to third parties:
+\n<b>•</b>	If we are under a duty to disclose or share your personal data in order to comply with any legal obligation, our customers, or others. This includes exchanging information with other companies and organisations for the purposes of fraud protection and credit risk reduction.
+\n\n<b>THIRD PARTIES</b> \n\nBy making a donation through SnapDonate you are using services provided by Third Parties such as JustGiving.com and VirginMoneyGiving.com These Third Parties will collect basic payment information to enable them to process the donation. This will include your name, address, email address and payment card / account details, together with your unique username and password (if you decide to become a registered user). If you are eligible for UK Gift Aid, they will also ask you to confirm your UK domicile address as this may be different from your billing address. For more information about these Third Party privacy policies please visit their associated websites.
+\n\n<b>CHANGES TO OUR PRIVACY POLICY</b> \n\nAny changes we may make to our privacy policy in the future will be posted on this page and, where appropriate, notified to you by e-mail. However, we advise that you check this page regularly to keep up to date with any necessary changes.
+\n\n<b>CONTACT</b> \n\nQuestions, comments and requests regarding this privacy policy are welcomed and should be addressed to SnapDonate Foundation Ltd, 77#8211;79 Great Eastern Street, London, EC2A 3HU.</string>
+    <string name="connection_lost_cloud">Uh oh, it looks like you\'re offline. Press continue to switch to offline mode so you can carry on using SnapDonate</string>
+    <string name="offline_recognition">Offline Recognition</string>
+    <string name="connection_found_imagetargets">Woohoo! It looks like you\'re back online. Press continue to switch to online mode so you can carry on using SnapDonate</string>
+    <string name="online_recognition">Online Recognition</string>
+
+</resources>
